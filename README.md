@@ -9,10 +9,10 @@ Usage
 ``` php
 
 Loggit::info('Some information', __FILE__, __LINE__);
-Loggit::debug('Debug information, __FILE__, __LINE__);
-Loggit::warn('Warning information, __FILE__, __LINE__);
-Loggit::error('Error information, __FILE__, __LINE__);
-Loggit::fatal('Fatal information, __FILE__, __LINE__');
+Loggit::debug('Debug information', __FILE__, __LINE__);
+Loggit::warn('Warning information', __FILE__, __LINE__);
+Loggit::error('Error information', __FILE__, __LINE__);
+Loggit::fatal('Fatal information', __FILE__, __LINE__');
 
 ```
 
